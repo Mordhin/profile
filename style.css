@@ -3,10 +3,23 @@ body {
     color: #151515;
     font-family: 'Open Sans', sans-serif;
 }
+img {
+    width: 120px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 3px;
+    vertical-align: middle;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 
-header img {
-    width: 100px;
+}
+
+#pp {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    vertical-align: middle;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+
 }
 
 .btn {
@@ -24,16 +37,24 @@ header img {
 
 h1 {
     font-family: 'Raleway', sans-serif;
+    color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
     width: 600px;
     margin: 0 auto;
+    text-align: center;
 
 }
 
 .card {
-    padding: 40px;
+    padding: 20px;
     margin: 20px 0;
     background-color: rgba(255, 255, 255, 0.99);
     border-radius: 3px;
@@ -51,6 +72,16 @@ h1 {
     padding: 10px;
 }
 
+.list-inline-card {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline-card li {
+    display: inline-block;
+    padding: 10px;
+}
+
 .fab {
     font-size: 32px;
     color: #151515;
@@ -62,6 +93,11 @@ h1 {
 
 .fa-github:hover {
     color: orange;
+}
+
+.fa-gem {
+    color: rgba(255, 25, 0, 0.912);
+
 }
 
 @media (max-width: 960px) {
