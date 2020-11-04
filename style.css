@@ -1,0 +1,81 @@
+body {
+    background-color: #151515;
+    color: #151515;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #664A2D;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #6b543c ;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.card {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.99);
+    border-radius: 3px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.fab {
+    font-size: 32px;
+    color: #151515;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-github:hover {
+    color: orange;
+}
+
+@media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+}
+@media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+}
+@media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+}
